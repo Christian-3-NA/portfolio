@@ -4,6 +4,8 @@
 
 
 html, body {
-    background-color: #18262eff;
+    background-color: #18262e;
     height: 100%;
+    margin: 0;
+    overflow: hidden;
 }
