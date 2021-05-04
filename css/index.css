@@ -4,7 +4,7 @@
 
 
 #header {
-    height: 18%;
+    height: 11%;
     margin: 1%;
     width: 98%;
     position: relative;
@@ -25,48 +25,51 @@ td {
     width: 17.5%;
     padding: 0;
     margin: 0;
-    text-align: center;
     vertical-align: bottom;
+    border-radius: 30px 30px 0 0;
 }
 
 th {
     width: 30%;
-    padding: 0;
+    padding: 0 0 0 .5%;
     margin: 0;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+div.tabs {
+    background-color: #455c69ff;
+    width: 93%;
+    margin: 0 auto -3px auto;
     text-align: center;
     vertical-align: bottom;
+    border-radius: 30px 30px 0 0;
+    padding: 3% 0 0 0;
 }
 
 span {
     background-color: #455c69ff;
-    font-size: 600%;
+    font-size: 400%;
     margin: 0;
-    padding: 30px 30px 4px 30px;
+    padding: 10px 30px 4px 30px;
     border-radius: 30px 30px 0 0;
     color: white;
     font-weight: normal;
 }
 
 a {
-    background-color: #455c69ff;
     font-size: 400%;
     text-decoration: none;
-    padding: 0;
-    margin: 0;
-    padding: 30px 30px 4px 30px;
-    border-radius: 30px 30px 0 0;
     color: white;
 }
 
-/*
-div#header > table > tr > td  > span {
-    font-size: 300%;
-    text-align: center;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}*/
+a:active {
+    color: #18262e;
+}
 
+div.tabs:active {
+    background-color: #67e8c1ff;
+}
 
 div#bar {
     height: 10%;
@@ -77,55 +80,15 @@ div#bar {
 }
 
 
-
-
-
-/*
-#header > ul {
-    width: 98%;
-    height: 90%;
-    padding-top: 0%;
-    text-align: center;
-    vertical-align: bottom;
-
-
-    background-color: rgb(159, 230, 208);
-}
-
-#header > ul > li {
-    display: inline;
-    vertical-align: bottom;
-    height: 100%;
-    margin: auto;
-}
-
-#header > ul > li > h1 {
-    display: inline;
-    background-color: #455c69ff;
-    border-radius: 20px 20px 0px 0px;
-    color: white;
-    padding: 5px;
-    font-size: 200%;
-}
-
-#header > ul > li > a {
-    text-decoration: none;
-    background-color: #455c69ff;
-    border-radius: 15px 15px 0px 0px;
-    color: white;
-    padding: 5px;
-    font-size: 150%;
-}*/
-
-
 #content {
     background-color: #18262e;
-    height: 76%;
+    height: 83%;
     margin: 1%;
 }
 
 iframe {
     border: none;
     height: 100%;
-    width: 100%;
+    width: 90%;
+    margin: 0 5%;
 }

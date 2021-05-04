@@ -1,3 +1,37 @@
 /*  Christian Anderson
     4/14/2021
 */
+
+
+html, body {
+    background-color: red;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+div#row1 {
+    width: 100%;
+    height: 35%;
+    background-color: orange;
+}
+
+img {
+    width: 200px;
+    background-color: blue;
+}
+
+
+div#row2 {
+    width: 100%;
+    height: 30%;
+    background-color: orangered;
+}
+
+
+div#row3 {
+    width: 100%;
+    height: 35%;
+    background-color: yellow;
+}
