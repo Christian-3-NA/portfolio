@@ -18,8 +18,20 @@ div#row1 {
 }
 
 img {
-    width: 200px;
-    background-color: blue;
+    height: 93%;
+    border: 5px #67e8c1 solid;
+    border-radius: 5px;
+    margin: 0 0 0 10%;
+    float: left;
+}
+
+p {
+    display: inline;
+    height: 93%;
+    width: 60%;
+    float: right;
+    margin: 0 10% 0 0;
+    background-color: #455c69ff;
 }
 
 
