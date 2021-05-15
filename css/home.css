@@ -4,7 +4,6 @@
 
 
 html, body {
-    background-color: red;
     height: 100%;
     margin: 0;
     overflow: hidden;
@@ -15,10 +14,9 @@ html, body {
 div#row1 {
     width: 100%;
     height: 35%;
-    background-color: orange;
 }
 
-img {
+img#portrait {
     height: 95%;
     border: 5px #67e8c1 solid;
     border-radius: 5px;
@@ -52,8 +50,11 @@ span#header {
 div#row2 {
     width: 100%;
     height: 30%;
-    background-color: orangered;
     padding: 0% 17.5%;
+}
+
+nav {
+    height: 100%;
 }
 
 .contact {
@@ -66,9 +67,39 @@ div#row2 {
     border-radius: 100%;
 }
 
+.contact_img {
+    height: 100%;
+    width: 100%;
+}
+
+
 
 div#row3 {
     width: 100%;
     height: 35%;
-    background-color: yellow;
+    padding: 0% 21.75%;
+}
+
+.link {
+    display: inline-block;
+    background-color: #67e8c1ff;
+    height: 80%;
+    width: 13%;
+    margin: 1.5% 3% 0 3%;
+    color: white;
+    border-radius: 100%;
+}
+
+.link_title {
+    width: 100%;
+    background-color: #455c69ff;
+    height: 20%;
+    display: inline-block;
+    font-size: 250%;
+    text-align: center;
+}
+
+.link_img {
+    height: 80%;
+    width: 100%;
 }
